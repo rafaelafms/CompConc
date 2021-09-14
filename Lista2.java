@@ -1,6 +1,6 @@
 /* Codigo: Leitores e escritores usando monitores em Java */
 
-// Monitor que implementa a logica do padrao leitores/escritores
+// Monitor que implementa a logica do padrao leitores/escritores dando preferência as escritores
 class LE {
   private int leit, escr, escrbloqueado;  
   
